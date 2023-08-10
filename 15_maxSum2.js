@@ -1,4 +1,12 @@
-/*  */
+ /** 
+ *  
+ *   75 Blind Leetcode No. 5
+ *   10/08/2023
+ * 
+ *   Maximum Subarray
+ * 
+**/
+
 
 const maxSum = (nums) => {
     let max_sum = nums[0]

@@ -1,6 +1,11 @@
-/**
- *  GET ARRAY PRODUCT EXCEPT SELF
- *  09/08/2023
+/**  
+ * 
+ *   75 Blind Leetcode No. 4
+ *   09/08/2023
+ * 
+ *   Product of Array Except Self
+ * 
+ * 
 **/
 
 const productExceptSelf = (nums) => {

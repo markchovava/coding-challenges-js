@@ -1,6 +1,7 @@
-/**
- *  CHECK IF CONTAIND DUPLICATE
- *  09/08/2023
+/* 
+*   75 Blind Leetcode No. 3
+*   09/08/2023
+*   Contains Duplicate
 **/
 
 

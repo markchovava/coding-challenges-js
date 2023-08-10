@@ -1,7 +1,8 @@
 /**
- *  GET MAX PROFIT
- *  09/08/2023
- **/ 
+*   75 Blind Leetcode No. 2
+*   Buy and Stock max Profit
+*   09/09/2023
+**/ 
 
 const maxProfit = (prices) => {
     let left = 0;
