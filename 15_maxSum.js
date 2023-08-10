@@ -21,13 +21,15 @@ const maxSum = function(nums) {
     let max_sum = nums[0];
     for (let i = 1; i < nums.length; i++) {
         nums[i] = Math.max(0, nums[i - 1]) + nums[i];
-        if (nums[i] > max_sum)
+        max_sum = Math.max(nums[i], max_sum)
+        /* if (nums[i] > max_sum){
             max_sum = nums[i];
+        } */
     }
     return max_sum;  
 };
 
 
 let nums = [5,4,1,4,-7,1]
-console.log(maxSubArray(nums))
+console.log(maxSum(nums))
 
