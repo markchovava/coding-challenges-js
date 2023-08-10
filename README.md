@@ -1,1 +1,3 @@
-"# coding-challenges-js" 
+# QUESTIONS AND SOLUTIONS TO CODING CHALLENGES FOR INTERVIEWS
+
+# More info is commented in the code
