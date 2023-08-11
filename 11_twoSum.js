@@ -2,6 +2,8 @@
 *
 *   75 Blind Leetcode No. 1
 *   09/08/2023
+
+*   1. Two Sum
 *
 *   1. Given an array of integers nums and an integer target, 
 *   return indices of the two numbers such that they add up to target.
