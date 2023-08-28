@@ -18,8 +18,6 @@
 **/
 
 
-
-
 const threeSum = (nums) => {
     if(nums == [] || nums.length < 3) return [];
     let result = [];
@@ -41,7 +39,6 @@ const threeSum = (nums) => {
         }
         while(nums[i+1] === nums[i]) i++;
     }
-
 
     return result;
 }

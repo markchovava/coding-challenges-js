@@ -1,21 +1,22 @@
 
 const isValid = (str) => {
-    let stack = []
+    let arr = []
     for(let i = 0; i < str.length; i++){
         switch(str[i]){
-            case '(' : stack.push(')')
-            break;
-            case '[' : stack.push(']')
-            break;
-            case '{' : stack.push('}')
-            break;
+            case '(': arr.push(')')
+                break;
+            case '[': arr.push(']')
+                break;
+            case '{': arr.push('}')
+                break;
             default:
-                if(str[i] !== stack.pop()) return false
+                if(str[i] !== arr.pop()) return false
         }
     }
-    return stack.length === 0;
+    return arr.length === 0;
 }
 
 
 let str = '[][]{([])}';
-console.log(isValid((str)))
+let res = isValid(str)
+console.log(res)

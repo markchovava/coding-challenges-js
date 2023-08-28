@@ -7,12 +7,13 @@
 
 const containsDuplicate = (nums) => {
    let seen = new Set()
-   for (const num of nums){
-    seen.add(num)
+   for(const num of nums){
+      seen.add(num)
    }
+
    return seen.size !== nums.length
 }
 
 
-let nums = [1,2,4,6,1,5]
+let nums = [1,2,4,6,5,5]
 console.log(containsDuplicate(nums))

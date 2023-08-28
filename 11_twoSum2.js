@@ -10,11 +10,11 @@
 
 const twoSum = (nums, target) => {
     let prevValues = {}
-    for(let i = 0; i < nums.length; i++){
-        let currentNumber = nums[i]
-        let neededValue = target - currentNumber
-        let index = prevValues[neededValue]
-        if(index != null){
+    for(let i = 0; i < nums.length; i++) {
+        const currentNumber = nums[i]
+        const neededValue = target - currentNumber
+        const index = prevValues[neededValue]
+        if(index != null) {
             return [index, i]
         } else{
             prevValues[currentNumber] = i
@@ -24,6 +24,6 @@ const twoSum = (nums, target) => {
 
 
 let nums = [2,1,5,3]
-let target = 8
+let target = 6
 
 console.log(twoSum(nums, target))

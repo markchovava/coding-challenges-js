@@ -1,3 +1,9 @@
+
+/* 
+    Cleanup String
+*/
+
+
 const cleanupString = (str) => {
     let letterCounts = {};
     for(const letter of str){
@@ -32,7 +38,7 @@ const cleanupString = (str) => {
             resultArray.push(value) 
         }
     }
-    
+
     let result = resultArray.join('')
 
     return result

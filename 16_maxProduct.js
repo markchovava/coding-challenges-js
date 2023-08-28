@@ -32,5 +32,5 @@ const maxProduct = function(nums) {
 };
 
 
-let nums = [10,-2,2,3]
+let nums = [1,-6, 2, 0, 11, 10]
 console.log(maxProduct(nums))
